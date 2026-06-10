@@ -1,0 +1,147 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "imageUrl": "/images/post-1.jpg",
+      "title": "Mountain at dawn",
+      "author": "alex",
+      "avatar": "A",
+      "description": "A breathtaking view of the mountain just as the sun begins to rise, casting golden light across the peaks.",
+      "tags": ["nature", "mountains", "photography"],
+      "likes": 142,
+      "createdAt": "2024-11-01T08:00:00Z"
+    },
+    {
+      "id": 2,
+      "imageUrl": "/images/post-2.jpg",
+      "title": "City skyline",
+      "author": "maya",
+      "avatar": "M",
+      "description": "The city never sleeps — neon lights and steel towers reflected in the river below.",
+      "tags": ["city", "architecture", "urban"],
+      "likes": 98,
+      "createdAt": "2024-11-03T12:30:00Z"
+    },
+    {
+      "id": 3,
+      "imageUrl": "/images/post-3.jpg",
+      "title": "Forest path",
+      "author": "leo",
+      "avatar": "L",
+      "description": "A quiet trail through an ancient forest, where light filters through the canopy in soft beams.",
+      "tags": ["forest", "hiking", "nature"],
+      "likes": 211,
+      "createdAt": "2024-11-05T09:15:00Z"
+    },
+    {
+      "id": 4,
+      "imageUrl": "/images/post-4.jpg",
+      "title": "Ocean at sunset",
+      "author": "sara",
+      "avatar": "S",
+      "description": "Waves crashing at golden hour, the horizon painted in shades of amber and rose.",
+      "tags": ["ocean", "sunset", "beach"],
+      "likes": 305,
+      "createdAt": "2024-11-07T18:00:00Z"
+    },
+    {
+      "id": 5,
+      "imageUrl": "/images/post-5.jpg",
+      "title": "Desert dunes",
+      "author": "kai",
+      "avatar": "K",
+      "description": "Endless rippling dunes under a blazing midday sun — silence and scale in equal measure.",
+      "tags": ["desert", "travel", "landscape"],
+      "likes": 87,
+      "createdAt": "2024-11-09T14:00:00Z"
+    },
+    {
+      "id": 6,
+      "imageUrl": "/images/post-6.jpg",
+      "title": "Snowy peaks",
+      "author": "alex",
+      "avatar": "A",
+      "description": "Snow-capped summits piercing through a sea of clouds at high altitude.",
+      "tags": ["snow", "mountains", "winter"],
+      "likes": 176,
+      "createdAt": "2024-11-12T07:30:00Z"
+    },
+    {
+      "id": 7,
+      "imageUrl": "/images/post-7.jpg",
+      "title": "Waterfall",
+      "author": "maya",
+      "avatar": "M",
+      "description": "A powerful cascade tumbling down moss-covered rocks into a crystal clear pool.",
+      "tags": ["waterfall", "nature", "water"],
+      "likes": 259,
+      "createdAt": "2024-11-14T10:45:00Z"
+    },
+    {
+      "id": 8,
+      "imageUrl": "/images/post-8.jpg",
+      "title": "Autumn leaves",
+      "author": "leo",
+      "avatar": "L",
+      "description": "A riot of red, orange, and gold as the forest transitions into the depths of autumn.",
+      "tags": ["autumn", "leaves", "season"],
+      "likes": 193,
+      "createdAt": "2024-11-16T15:00:00Z"
+    },
+    {
+      "id": 9,
+      "imageUrl": "/images/post-9.jpg",
+      "title": "Misty valley",
+      "author": "leo",
+      "avatar": "L",
+      "description": "Morning fog rolling through a deep valley, softening the landscape into a dreamlike scene.",
+      "tags": ["fog", "valley", "landscape"],
+      "likes": 134,
+      "createdAt": "2024-11-18T06:00:00Z"
+    },
+    {
+      "id": 10,
+      "imageUrl": "/images/post-10.jpg",
+      "title": "Lavender fields",
+      "author": "sara",
+      "avatar": "S",
+      "description": "Row upon row of lavender stretching to the horizon under a soft summer sky.",
+      "tags": ["lavender", "flowers", "france"],
+      "likes": 421,
+      "createdAt": "2024-11-20T11:00:00Z"
+    },
+    {
+      "id": 11,
+      "imageUrl": "/images/post-11.jpg",
+      "title": "Rocky coast",
+      "author": "kai",
+      "avatar": "K",
+      "description": "Jagged cliffs meeting the Atlantic in a dramatic display of nature's raw power.",
+      "tags": ["coast", "ocean", "cliffs"],
+      "likes": 167,
+      "createdAt": "2024-11-22T13:30:00Z"
+    },
+    {
+      "id": 12,
+      "imageUrl": "/images/post-12.jpg",
+      "title": "Northern lights",
+      "author": "kai",
+      "avatar": "K",
+      "description": "Aurora borealis dancing across the arctic sky in ribbons of green and violet.",
+      "tags": ["aurora", "arctic", "night"],
+      "likes": 512,
+      "createdAt": "2024-11-24T22:00:00Z"
+    }
+  ],
+  "comments": [
+    { "id": 1, "postId": 1, "author": "sara",  "avatar": "S", "body": "This is absolutely stunning!", "createdAt": "2024-11-01T10:00:00Z" },
+    { "id": 2, "postId": 1, "author": "kai",   "avatar": "K", "body": "What camera did you use?",     "createdAt": "2024-11-01T11:30:00Z" },
+    { "id": 3, "postId": 2, "author": "leo",   "avatar": "L", "body": "Love the reflections here.",   "createdAt": "2024-11-03T14:00:00Z" },
+    { "id": 4, "postId": 3, "author": "alex",  "avatar": "A", "body": "I want to walk this trail.",   "createdAt": "2024-11-05T16:00:00Z" },
+    { "id": 5, "postId": 4, "author": "maya",  "avatar": "M", "body": "Best sunset I've ever seen.",  "createdAt": "2024-11-07T20:00:00Z" },
+    { "id": 6, "postId": 4, "author": "kai",   "avatar": "K", "body": "Where was this taken?",        "createdAt": "2024-11-07T21:00:00Z" },
+    { "id": 7, "postId": 7, "author": "sara",  "avatar": "S", "body": "So peaceful and powerful.",    "createdAt": "2024-11-14T12:00:00Z" },
+    { "id": 8, "postId": 10, "author": "alex", "avatar": "A", "body": "Provence looks magical.",      "createdAt": "2024-11-20T13:00:00Z" },
+    { "id": 9, "postId": 12, "author": "maya", "avatar": "M", "body": "On my bucket list!",           "createdAt": "2024-11-24T23:00:00Z" }
+  ]
+}
