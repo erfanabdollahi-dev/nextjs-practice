@@ -2,297 +2,397 @@
   "posts": [
     {
       "id": "1",
-      "imageUrl": "/images/post-1.jpg",
-      "title": "Makima",
-      "author": "alex",
-      "avatar": "A",
-      "description": "A breathtaking view of the mountain just as the sun begins to rise, casting golden light across the peaks.",
+      "imageUrl": "/images/img1.jpg",
+      "title": "Tokyo Drift",
+      "author": "vex",
+      "avatar": "V",
+      "description": "A stunning photograph of the Tokyo skyline during a drift session.",
       "tags": [
-        "nature",
-        "mountains",
-        "photography"
+        "cars",
+        "tokyo",
+        "drift"
       ],
       "likes": 142,
       "createdAt": "2024-11-01T08:00:00Z"
     },
     {
       "id": "2",
-      "imageUrl": "/images/post-2.jpg",
-      "title": "City skyline",
-      "author": "maya",
-      "avatar": "M",
-      "description": "The city never sleeps — neon lights and steel towers reflected in the river below.",
+      "imageUrl": "/images/img2.jpg",
+      "title": "anime girl with pink hair",
+      "author": "vex",
+      "avatar": "V",
+      "description": "A beautiful anime girl with vibrant pink hair.",
       "tags": [
-        "city",
-        "architecture",
-        "urban"
+        "anime",
+        "girl",
+        "pink hair"
       ],
-      "likes": 98,
-      "createdAt": "2024-11-03T12:30:00Z"
+      "likes": 300,
+      "createdAt": "2024-11-01T08:00:00Z"
     },
     {
       "id": "3",
-      "imageUrl": "/images/post-3.jpg",
-      "title": "Forest path",
-      "author": "leo",
-      "avatar": "L",
-      "description": "A quiet trail through an ancient forest, where light filters through the canopy in soft beams.",
+      "imageUrl": "/images/img3.jpg",
+      "title": "black and white manga anime gril",
+      "author": "vex",
+      "avatar": "V",
+      "description": "A black and white manga-style anime girl.",
       "tags": [
-        "forest",
-        "hiking",
-        "nature"
+        "anime",
+        "girl",
+        "manga"
       ],
-      "likes": 211,
-      "createdAt": "2024-11-05T09:15:00Z"
+      "likes": 350,
+      "createdAt": "2024-11-01T08:00:00Z"
     },
     {
       "id": "4",
-      "imageUrl": "/images/post-4.jpg",
-      "title": "Ocean at sunset",
-      "author": "sara",
-      "avatar": "S",
-      "description": "Waves crashing at golden hour, the horizon painted in shades of amber and rose.",
+      "imageUrl": "/images/img4.jpg",
+      "title": "AI generated Modern Poster",
+      "author": "vex",
+      "avatar": "V",
+      "description": "An AI-generated modern poster.",
       "tags": [
-        "ocean",
-        "sunset",
-        "beach"
+        "ai",
+        "poster",
+        "black and white"
       ],
-      "likes": 305,
-      "createdAt": "2024-11-07T18:00:00Z"
+      "likes": 150,
+      "createdAt": "2024-11-01T08:00:00Z"
     },
     {
       "id": "5",
-      "imageUrl": "/images/post-5.jpg",
-      "title": "Desert dunes",
-      "author": "kai",
-      "avatar": "K",
-      "description": "Endless rippling dunes under a blazing midday sun — silence and scale in equal measure.",
+      "imageUrl": "/images/img5.jpg",
+      "title": "makima",
+      "author": "vex",
+      "avatar": "V",
+      "description": "makima from chiansaw man fan art.",
       "tags": [
-        "desert",
-        "travel",
-        "landscape"
+        "fanart",
+        "makima",
+        "chainsawman"
       ],
-      "likes": 87,
-      "createdAt": "2024-11-09T14:00:00Z"
+      "likes": 550,
+      "createdAt": "2024-11-01T08:00:00Z"
     },
     {
       "id": "6",
-      "imageUrl": "/images/post-6.jpg",
-      "title": "Snowy peaks",
+      "imageUrl": "/images/img6.jpg",
+      "title": "Spider Man",
+      "author": "vex",
+      "avatar": "V",
+      "description": "Spider Man from the comics.",
+      "tags": [
+        "fanart",
+        "spiderman",
+        "comics"
+      ],
+      "likes": 550,
+      "createdAt": "2024-11-01T08:00:00Z"
+    },
+    {
+      "imageUrl": "/images/1781201716255-cyberpunk.jpg",
+      "title": "Cyberpunk anime girl",
+      "author": "vex",
+      "avatar": "V",
+      "description": "anime girl from cyuberpunk anime",
+      "tags": [
+        "cyberpunk",
+        "anime"
+      ],
+      "likes": 0,
+      "createdAt": "2026-06-11T18:15:16.257Z",
+      "id": "yKnVIvuAuCo"
+    },
+    {
+      "imageUrl": "/images/1781201757638-reze.jpg",
+      "title": "Reze",
+      "author": "mika",
+      "avatar": "M",
+      "description": "Reze from chiansaw man",
+      "tags": [
+        "chainsawman",
+        "anime",
+        "reze"
+      ],
+      "likes": 0,
+      "createdAt": "2026-06-11T18:15:57.640Z",
+      "id": "zYFFTE9fKeI"
+    },
+    {
+      "imageUrl": "/images/1781201783116-makima.jpg",
+      "title": "makima",
+      "author": "vex",
+      "avatar": "V",
+      "description": "makima from chainsawman",
+      "tags": [
+        "anime",
+        "makima",
+        "chainsawman"
+      ],
+      "likes": 0,
+      "createdAt": "2026-06-11T18:16:23.117Z",
+      "id": "Fh7jrgLZ8hM"
+    },
+    {
+      "imageUrl": "/images/1781201818827-96bcf6d1fca032cecbe498c46a559f5d.jpg",
+      "title": "close up anime photo",
+      "author": "vex",
+      "avatar": "V",
+      "description": "close up anime photo",
+      "tags": [
+        "anime",
+        "closeup",
+        "eyes"
+      ],
+      "likes": 0,
+      "createdAt": "2026-06-11T18:16:58.828Z",
+      "id": "jVM7EsutnRQ"
+    },
+    {
+      "imageUrl": "/images/1781201871918-poster.jpg",
+      "title": "Its not Joke...",
       "author": "alex",
       "avatar": "A",
-      "description": "Snow-capped summits piercing through a sea of clouds at high altitude.",
+      "description": "a modern backand white looking poster",
       "tags": [
-        "snow",
-        "mountains",
-        "winter"
+        "poster",
+        "black and white"
       ],
-      "likes": 176,
-      "createdAt": "2024-11-12T07:30:00Z"
+      "likes": 0,
+      "createdAt": "2026-06-11T18:17:51.919Z",
+      "id": "-ctaZcoww6A"
     },
     {
-      "id": "7",
-      "imageUrl": "/images/post-7.jpg",
-      "title": "Waterfall",
-      "author": "maya",
-      "avatar": "M",
-      "description": "A powerful cascade tumbling down moss-covered rocks into a crystal clear pool.",
-      "tags": [
-        "waterfall",
-        "nature",
-        "water"
-      ],
-      "likes": 259,
-      "createdAt": "2024-11-14T10:45:00Z"
-    },
-    {
-      "id": "8",
-      "imageUrl": "/images/post-8.jpg",
-      "title": "Autumn leaves",
-      "author": "leo",
+      "imageUrl": "/images/1781201918147-animegril.jpg",
+      "title": "AI generated gojo clone xd",
+      "author": "liam",
       "avatar": "L",
-      "description": "A riot of red, orange, and gold as the forest transitions into the depths of autumn.",
+      "description": "AI generated gojo clone xd",
       "tags": [
-        "autumn",
-        "leaves",
-        "season"
+        "anime",
+        "gojo"
       ],
-      "likes": 193,
-      "createdAt": "2024-11-16T15:00:00Z"
+      "likes": 0,
+      "createdAt": "2026-06-11T18:18:38.149Z",
+      "id": "PeMMqi2FWdk"
     },
     {
-      "id": "9",
-      "imageUrl": "/images/post-9.jpg",
-      "title": "Misty valley",
-      "author": "leo",
-      "avatar": "L",
-      "description": "Morning fog rolling through a deep valley, softening the landscape into a dreamlike scene.",
+      "imageUrl": "/images/1781201956476-flower.webp",
+      "title": "beautifull red flowers",
+      "author": "vex",
+      "avatar": "V",
+      "description": "an image of beautifull red flowers",
       "tags": [
-        "fog",
-        "valley",
-        "landscape"
-      ],
-      "likes": 134,
-      "createdAt": "2024-11-18T06:00:00Z"
-    },
-    {
-      "id": "10",
-      "imageUrl": "/images/post-10.jpg",
-      "title": "Lavender fields",
-      "author": "sara",
-      "avatar": "S",
-      "description": "Row upon row of lavender stretching to the horizon under a soft summer sky.",
-      "tags": [
-        "lavender",
         "flowers",
-        "france"
+        "flower",
+        "red"
       ],
-      "likes": 421,
-      "createdAt": "2024-11-20T11:00:00Z"
+      "likes": 0,
+      "createdAt": "2026-06-11T18:19:16.477Z",
+      "id": "Ox4QuR8yPDs"
     },
     {
-      "id": "11",
-      "imageUrl": "/images/post-11.jpg",
-      "title": "Rocky coast",
-      "author": "kai",
-      "avatar": "K",
-      "description": "Jagged cliffs meeting the Atlantic in a dramatic display of nature's raw power.",
-      "tags": [
-        "coast",
-        "ocean",
-        "cliffs"
-      ],
-      "likes": 167,
-      "createdAt": "2024-11-22T13:30:00Z"
-    },
-    {
-      "id": "12",
-      "imageUrl": "/images/post-12.jpg",
-      "title": "Northern lights",
-      "author": "kai",
-      "avatar": "K",
-      "description": "Aurora borealis dancing across the arctic sky in ribbons of green and violet.",
-      "tags": [
-        "aurora",
-        "arctic",
-        "night"
-      ],
-      "likes": 512,
-      "createdAt": "2024-11-24T22:00:00Z"
-    },
-    {
-      "imageUrl": "/images/1781197347401-bmw-e30-m3--1-.jpg",
-      "title": "fdasf",
-      "author": "fasf",
+      "imageUrl": "/images/1781204266044-cyberpunk.jpg",
+      "title": "f",
+      "author": "f",
       "avatar": "F",
-      "description": "fasfasf",
+      "description": "f",
       "tags": [
-        "fas"
+        "f"
       ],
       "likes": 0,
-      "createdAt": "2026-06-11T17:02:27.404Z",
-      "id": "c0pfkygZs9o"
+      "createdAt": "2026-06-11T18:57:46.045Z",
+      "id": "bhe0EGRG_wo"
     },
     {
-      "imageUrl": "/images/1781197436116-porsche-911--5-.jpg",
-      "title": "supra poster",
+      "imageUrl": "/images/1781204371881-gtr.jpg",
+      "title": "gtr",
       "author": "vex",
       "avatar": "V",
-      "description": "a poster of a beautifull purple supra",
+      "description": "gtr",
       "tags": [
-        "car",
-        "supra"
+        "gtr",
+        "cars"
       ],
       "likes": 0,
-      "createdAt": "2026-06-11T17:03:56.119Z",
-      "id": "rrdoOAE5glM"
+      "createdAt": "2026-06-11T18:59:31.882Z",
+      "id": "GcC2CFU8YHU"
     },
     {
-      "imageUrl": "/images/1781197566164-ford-mustang-1-.jpg",
-      "title": "jhgjkhg",
-      "author": "vex",
-      "avatar": "V",
-      "description": "uyguyg",
+      "imageUrl": "/images/1781204557721-8841cd82d24a50853fb32ff733097b41.jpg",
+      "title": "anime girl",
+      "author": "mika",
+      "avatar": "M",
+      "description": "black and white anime girl",
       "tags": [
-        "iuyg8uyg"
+        "anime"
       ],
       "likes": 0,
-      "createdAt": "2026-06-11T17:06:06.165Z",
-      "id": "fQmtgoVhW-k"
+      "createdAt": "2026-06-11T19:02:37.722Z",
+      "id": "ITzMyBva0Qs"
     }
   ],
   "comments": [
     {
       "id": "1",
       "postId": 1,
-      "author": "sara",
+      "author": "sarah_drives",
       "avatar": "S",
-      "body": "This is absolutely stunning!",
+      "body": "The lighting in this shot is incredible! What shutter speed did you use?",
       "createdAt": "2024-11-01T10:00:00Z"
     },
     {
       "id": "2",
       "postId": 1,
-      "author": "kai",
-      "avatar": "K",
-      "body": "What camera did you use?",
+      "author": "night_rider",
+      "avatar": "N",
+      "body": "Tokyo at night hits different 🔥",
       "createdAt": "2024-11-01T11:30:00Z"
     },
     {
       "id": "3",
-      "postId": 2,
-      "author": "leo",
-      "avatar": "L",
-      "body": "Love the reflections here.",
-      "createdAt": "2024-11-03T14:00:00Z"
+      "postId": 1,
+      "author": "speed_demon",
+      "avatar": "S",
+      "body": "Initial D vibes! 🚗💨",
+      "createdAt": "2024-11-02T09:15:00Z"
     },
     {
       "id": "4",
-      "postId": 3,
-      "author": "alex",
+      "postId": 2,
+      "author": "anime_lover",
       "avatar": "A",
-      "body": "I want to walk this trail.",
-      "createdAt": "2024-11-05T16:00:00Z"
+      "body": "The pink hair suits her so well! Is this original character?",
+      "createdAt": "2024-11-01T14:00:00Z"
     },
     {
       "id": "5",
-      "postId": 4,
-      "author": "maya",
-      "avatar": "M",
-      "body": "Best sunset I've ever seen.",
-      "createdAt": "2024-11-07T20:00:00Z"
+      "postId": 2,
+      "author": "weeb_artist",
+      "avatar": "W",
+      "body": "The art style is gorgeous! Do you have more work like this?",
+      "createdAt": "2024-11-02T16:30:00Z"
     },
     {
       "id": "6",
-      "postId": 4,
-      "author": "kai",
+      "postId": 2,
+      "author": "kawaii_fan",
       "avatar": "K",
-      "body": "Where was this taken?",
-      "createdAt": "2024-11-07T21:00:00Z"
+      "body": "🌸 So cute! Reminds me of Zero Two",
+      "createdAt": "2024-11-03T12:00:00Z"
     },
     {
       "id": "7",
-      "postId": 7,
-      "author": "sara",
-      "avatar": "S",
-      "body": "So peaceful and powerful.",
-      "createdAt": "2024-11-14T12:00:00Z"
+      "postId": 3,
+      "author": "manga_enthusiast",
+      "avatar": "M",
+      "body": "The black and white really captures the manga aesthetic perfectly",
+      "createdAt": "2024-11-01T18:00:00Z"
     },
     {
       "id": "8",
-      "postId": 10,
-      "author": "alex",
-      "avatar": "A",
-      "body": "Provence looks magical.",
-      "createdAt": "2024-11-20T13:00:00Z"
+      "postId": 3,
+      "author": "ink_master",
+      "avatar": "I",
+      "body": "Those line arts are so clean! 🔥",
+      "createdAt": "2024-11-02T10:00:00Z"
     },
     {
       "id": "9",
-      "postId": 12,
-      "author": "maya",
+      "postId": 3,
+      "author": "manga_reader",
       "avatar": "M",
-      "body": "On my bucket list!",
-      "createdAt": "2024-11-24T23:00:00Z"
+      "body": "Would love to see a full manga in this style",
+      "createdAt": "2024-11-03T20:00:00Z"
+    },
+    {
+      "id": "10",
+      "postId": 4,
+      "author": "ai_artist",
+      "avatar": "A",
+      "body": "What prompt did you use for this? It's amazing!",
+      "createdAt": "2024-11-01T20:00:00Z"
+    },
+    {
+      "id": "11",
+      "postId": 4,
+      "author": "design_lover",
+      "avatar": "D",
+      "body": "This would make a great album cover 🎵",
+      "createdAt": "2024-11-02T15:00:00Z"
+    },
+    {
+      "id": "12",
+      "postId": 4,
+      "author": "tech_enthusiast",
+      "avatar": "T",
+      "body": "Midjourney or DALL-E? The composition is perfect",
+      "createdAt": "2024-11-03T11:00:00Z"
+    },
+    {
+      "id": "13",
+      "postId": 5,
+      "author": "csm_fan",
+      "avatar": "C",
+      "body": "Makima looks so powerful here! Great interpretation",
+      "createdAt": "2024-11-02T13:00:00Z"
+    },
+    {
+      "id": "14",
+      "postId": 5,
+      "author": "denji_lover",
+      "avatar": "D",
+      "body": "That stare gives me chills 😱 Perfectly captured her character",
+      "createdAt": "2024-11-02T17:00:00Z"
+    },
+    {
+      "id": "15",
+      "postId": 5,
+      "author": "anime_freak",
+      "avatar": "A",
+      "body": "Best Makima fan art I've seen this year! 🔥",
+      "createdAt": "2024-11-03T09:00:00Z"
+    },
+    {
+      "id": "16",
+      "postId": 5,
+      "author": "power_fan",
+      "avatar": "P",
+      "body": "The eyes are so accurate! You nailed the expression",
+      "createdAt": "2024-11-04T14:30:00Z"
+    },
+    {
+      "id": "17",
+      "postId": 6,
+      "author": "marvel_fan",
+      "avatar": "M",
+      "body": "This is web-slinging amazing! 🕷️",
+      "createdAt": "2024-11-02T10:00:00Z"
+    },
+    {
+      "id": "18",
+      "postId": 6,
+      "author": "spidey_sense",
+      "avatar": "S",
+      "body": "The suit texture is incredible! Is this from a specific comic run?",
+      "createdAt": "2024-11-02T19:00:00Z"
+    },
+    {
+      "id": "19",
+      "postId": 6,
+      "author": "comic_book_guy",
+      "avatar": "C",
+      "body": "Your friendly neighborhood Spider-Man looking epic! 🕸️",
+      "createdAt": "2024-11-03T15:00:00Z"
+    },
+    {
+      "id": "20",
+      "postId": 6,
+      "author": "peter_parker",
+      "avatar": "P",
+      "body": "This is the best Spidey art I've seen! Great job!",
+      "createdAt": "2024-11-04T12:00:00Z"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

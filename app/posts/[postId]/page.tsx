@@ -19,7 +19,6 @@ const getPostComments = async (postId: string): Promise<Comment[]> => {
   return res.json()
 }
 
-export const revalidate  =30
 
 const PostDetail = async ({ params }: { params: Promise<{ postId: string }> }) => {
   const { postId } = await params

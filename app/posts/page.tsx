@@ -6,9 +6,7 @@ import React from 'react'
 
 
 const getPosts = async (): Promise<Post[]> => {
-    const res = await fetch('http://localhost:4000/posts?_sort=-createdAt', {next : {
-        revalidate : 10
-    }})
+    const res = await fetch('http://localhost:4000/posts?_sort=-createdAt')
     const posts = await res.json()
     return posts
 }
@@ -19,6 +17,7 @@ const Posts = async () => {
 
     return (
         <div className="columns-2 sm:columns-3 lg:columns-4 xl:columns-5 gap-3">
+            
             {posts.map((post) => (
 
 

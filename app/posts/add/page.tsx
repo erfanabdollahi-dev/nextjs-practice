@@ -3,7 +3,7 @@ import AddPostInput from '@/componets/ui/post/AddPostInput';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import React, { ChangeEvent, useRef, useState, useTransition } from 'react'
-import { createPost } from './actions';
+import { createPost, revalidatePosts } from './actions';
 type Props = {}
 interface PostForm {
     title: string;
@@ -43,8 +43,10 @@ const AddPost = (props: Props) => {
 
         startTransition(async () => {
             try {
-                await createPost(formData)
-                router.push('/')
+                const res = await createPost(formData)
+                console.log(res);
+                await revalidatePosts(res.id)
+                router.push(`/posts/${res.id}`)
             }
             catch (err: unknown) {
                 setError(err instanceof Error ? err.message : "Something went wrong");

@@ -2,6 +2,7 @@
 
 import { mkdir, writeFile } from "fs/promises";
 import path from "path";
+import { revalidatePath } from "next/cache";
 
 
 const uploadImage = async (formData: FormData) => {
@@ -30,7 +31,7 @@ const uploadImage = async (formData: FormData) => {
 
 export async function createPost(formData: FormData) {
 
-    const imageUrl = await uploadImage(formData) 
+    const imageUrl = await uploadImage(formData)
     const author = (formData.get('author') as string).trim();
     const tagsRaw = (formData.get('tags') as string) ?? "";
 
@@ -55,6 +56,14 @@ export async function createPost(formData: FormData) {
     if (!res.ok) throw new Error("Failed to save post");
 
 
+
     return await res.json();
 
+}
+
+
+export async function revalidatePosts(id: string) {
+
+    revalidatePath(`/posts/${id}`)
+    revalidatePath('/posts')
 }
