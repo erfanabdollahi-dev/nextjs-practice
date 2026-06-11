@@ -1,5 +1,5 @@
-import BackBtn from '@/componets/ui/postdetail/BackBtn'
-import PostImage from '@/componets/ui/postdetail/PostImage'
+import BackBtn from '@/componets/ui/post/BackBtn'
+import PostImage from '@/componets/ui/post/PostImage'
 import { Post, Comment } from '@/types'
 import React from 'react'
 import { IoArrowRedoOutline, IoChatbubbleOutline, IoHeartOutline } from 'react-icons/io5'
@@ -18,6 +18,8 @@ const getPostComments = async (postId: string): Promise<Comment[]> => {
   const res = await fetch(`http://localhost:4000/comments?postId=${postId}`)
   return res.json()
 }
+
+export const revalidate  =30
 
 const PostDetail = async ({ params }: { params: Promise<{ postId: string }> }) => {
   const { postId } = await params

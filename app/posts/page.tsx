@@ -6,7 +6,9 @@ import React from 'react'
 
 
 const getPosts = async (): Promise<Post[]> => {
-    const res = await fetch('http://localhost:4000/posts')
+    const res = await fetch('http://localhost:4000/posts?_sort=-createdAt', {next : {
+        revalidate : 10
+    }})
     const posts = await res.json()
     return posts
 }
