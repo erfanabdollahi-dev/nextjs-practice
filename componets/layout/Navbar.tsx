@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 import { CgAddR } from 'react-icons/cg'
-import { FaPinterest } from 'react-icons/fa'
+import { FaPinterest, FaRegUser, FaUser } from 'react-icons/fa'
 import { RiAddBoxFill, RiAddBoxLine } from 'react-icons/ri'
 import NavLink from './NavLink'
 import { GoHome, GoHomeFill } from 'react-icons/go'
@@ -25,6 +25,11 @@ const Navbar = (props: Props) => {
           href="/posts/add"
           activeIcon={<RiAddBoxFill size={30} />}
           inactiveIcon={<RiAddBoxLine size={30} />}
+        />
+        <NavLink
+          href="/login"
+          activeIcon={<FaUser  size={25} />}
+          inactiveIcon={<FaRegUser  size={25} />}
         />
 
       </div>

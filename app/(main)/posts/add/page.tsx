@@ -1,9 +1,10 @@
 'use client'
+import { createPost, revalidatePosts } from '@/actions/posts/postAction';
 import AddPostInput from '@/componets/ui/post/AddPostInput';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import React, { ChangeEvent, useRef, useState, useTransition } from 'react'
-import { createPost, revalidatePosts } from './actions';
+
 type Props = {}
 interface PostForm {
     title: string;
