@@ -11,7 +11,7 @@ const PostImage = ({ src, alt }: { src: string, alt: string }) => {
         const img = imgRef.current;
         if (!img) return;
 
-        if(img.complete && img.naturalWidth  > 0){
+        if (img.complete && img.naturalWidth > 0) {
             updateSize(img)
         }
     }, [])
@@ -27,7 +27,12 @@ const PostImage = ({ src, alt }: { src: string, alt: string }) => {
 
     const handleLoaded = (e: SyntheticEvent<HTMLImageElement, Event>) => {
 
-        const img = e.currentTarget;
+        const img = imgRef.current;
+        if (!img) return;
+
+        if (img.complete && img.naturalWidth > 0) {
+            updateSize(img)
+        }
 
 
     }

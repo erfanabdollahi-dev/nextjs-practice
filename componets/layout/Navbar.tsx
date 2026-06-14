@@ -27,7 +27,7 @@ const Navbar = (props: Props) => {
           inactiveIcon={<RiAddBoxLine size={30} />}
         />
         <NavLink
-          href="/login"
+          href="/profile"
           activeIcon={<FaUser  size={25} />}
           inactiveIcon={<FaRegUser  size={25} />}
         />
